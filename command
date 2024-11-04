@@ -1,0 +1,26 @@
+docker run
+  -d
+  --name='code-server'
+  --net='backend'
+  --pids-limit 2048
+  -e TZ="Europe/Berlin"
+  -e HOST_OS="Unraid"
+  -e HOST_HOSTNAME="Atlantis"
+  -e HOST_CONTAINERNAME="code-server"
+  -e 'PASSWORD'='anypassword'
+  -e 'HASHED_PASSWORD'=''
+  -e 'SUDO_PASSWORD'='anypassword'
+  -e 'SUDO_PASSWORD_HASH'=''
+  -e 'DEFAULT_WORKSPACE'='/config/workspace'
+  -e 'PUID'='99'
+  -e 'PGID'='100'
+  -e 'UMASK'='022'
+  -l net.unraid.docker.managed=dockerman
+  -l net.unraid.docker.webui='http://[IP]:[PORT:8443]'
+  -l net.unraid.docker.icon='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-logo.png'
+  -l 'traefik.enable'='true'
+  -l 'traefik.http.routers.code.entrypoints'='https'
+  -l 'traefik.http.middlewares.code.forwardauth.address'='https://auth.myowndomain.com/oauth2/callback'
+  -p '8443:8443/tcp'
+  -v '/mnt/user/appdata/':'/appdata':'rw'
+  -v '/mnt/user/appdata/code-server':'/config':'rw' 'lscr.io/linuxserver/code-server'
