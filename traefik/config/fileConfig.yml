@@ -8,13 +8,14 @@ http:
 
   ## MIDDLEWARES ##
   middlewares:
-    # nothing
-
     oauth2:
       forwardAuth:
-        address: "http://oauth2-proxy:4180/oauth2/auth"
+        address: "http://oauth2-proxy:4180/oauth2/start"
         trustForwardHeader: true
+        authRequestHeaders:
+          - X-Auth-Request-Redirect
         authResponseHeaders:
+          - Authorization
           - X-Auth-Request-User
           - X-Auth-Request-Email
 
@@ -73,6 +74,7 @@ http:
             - 172.19.254.252/32 # Cloudflare tunnel IP address
             - 172.19.254.253/32 # Reverse Proxy IP address 
             - 172.19.254.250/32 # OAuth2-Proxy IP address
+            - 172.19.0.3/32 # Zitadel IP address
           clientTrustedIPs:
             - 172.18.0.0/16 # Internal LAN IP addresses 
             - 172.19.0.0/16 # Internal LAN IP addresses 
@@ -89,6 +91,8 @@ http:
         sourceRange:
         - "10.0.0.0/8"
         - "192.168.0.0/16"
+        - "172.18.0.0/16"
+        - "172.19.0.0/16"
         - "127.0.0.1/32"
 
     secured:
