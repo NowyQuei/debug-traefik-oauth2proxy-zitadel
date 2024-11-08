@@ -1,50 +1,107 @@
-2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
-2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
-2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:44+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:46+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:46+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:55+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:55+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
-2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
-2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
-2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+# Initial connection to site
+
+2024-11-08T07:31:56+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:31:56 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 34 "code@docker" "-" 2ms
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=P2jKVnaDVpZcs5He_WASRwTyzikU_gVGJQuW8MgexC8&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=hvGp1whWPy5MTiGFeLE_RpgV2er7PWT5yJVvYAg5qnw%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 35 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 54ms
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/login?authRequestID=292848850601771011 HTTP/2.0" 200 3486 "-" "-" 36 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 56ms
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/resources/scripts/input_suffix_offset.js HTTP/2.0" 200 485 "-" "-" 39 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 1ms
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/resources/scripts/form_submit.js HTTP/2.0" 200 2541 "-" "-" 38 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 1ms
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/resources/scripts/go_back.js HTTP/2.0" 200 316 "-" "-" 40 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 1ms
+2024-11-08T07:31:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/resources/scripts/default_form_validation.js HTTP/2.0" 200 89 "-" "-" 41 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 0ms
+83.79.21.142 - - [08/Nov/2024:06:31:57 +0000] "GET /ui/login/resources/dynamic?orgId=292154420559413252&default-policy=true&filename=policy/label/css/variables.css?v=2024-11-03T11:33:25Z HTTP/2.0" 200 4117 "-" "-" 37 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 8ms
+
+
+
+# After login
+
+2024-11-08T07:32:36+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:36 +0000] "POST /ui/login/mfa/u2f/verify HTTP/2.0" 302 0 "-" "-" 44 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 268ms
+2024-11-08T07:32:37+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:37 +0000] "GET /oauth/v2/authorize/callback?id=292848850601771011 HTTP/2.0" 302 212 "-" "-" 45 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 140ms
+2024-11-08T07:32:37+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:37+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:37 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 47 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 164ms
+2024-11-08T07:32:37+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:37 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 48 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 29ms
+83.79.21.142 - - [08/Nov/2024:06:32:37 +0000] "GET /oauth2/callback?code=mm_xLj36H68GtQ_TAadzh0w_4X-Xn2S7BYnYUn7d5_U6DA&state=hvGp1whWPy5MTiGFeLE_RpgV2er7PWT5yJVvYAg5qnw%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 46 "oauth2@docker" "http://172.18.254.250:4180" 481ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:32:37 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 49 "code@docker" "-" 2ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=cHPX7hOaCqg_0zQFB26gOQU85XMAwiGwQmX2eRkn6zQ&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=ytHyNXwJVsJtaa9xAQxIy3NwiSYq1RzfKwI8XZxzoIA%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 50 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 59ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "GET /ui/login/login?authRequestID=292848919354802179 HTTP/2.0" 302 100 "-" "-" 51 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 207ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "GET /oauth/v2/authorize/callback?id=292848919354802179 HTTP/2.0" 302 212 "-" "-" 52 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 118ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 54 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 125ms
+2024-11-08T07:32:38+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 55 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 29ms
+83.79.21.142 - - [08/Nov/2024:06:32:38 +0000] "GET /oauth2/callback?code=U273DxJGgYXHathfQMAnc81uq5E3BTjcl6CvWo8N9erL3A&state=ytHyNXwJVsJtaa9xAQxIy3NwiSYq1RzfKwI8XZxzoIA%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 53 "oauth2@docker" "http://172.18.254.250:4180" 361ms
+2024-11-08T07:32:39+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:32:39 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 56 "code@docker" "-" 1ms
+2024-11-08T07:32:39+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:39 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=ZAmddxfXiw3ZFYL8wxzeD4wy8e4QMcBFZJiMisaw97U&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=yfwJMjK4Q9C5g3srOxyzQiL5V8jBv5qPQZzJqgGG8jI%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 57 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 55ms
+2024-11-08T07:32:39+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:39 +0000] "GET /ui/login/login?authRequestID=292848921368068099 HTTP/2.0" 302 100 "-" "-" 58 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 209ms
+2024-11-08T07:32:39+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:39 +0000] "GET /oauth/v2/authorize/callback?id=292848921368068099 HTTP/2.0" 302 212 "-" "-" 59 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 127ms
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 61 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 126ms
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 62 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 27ms
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "GET /oauth2/callback?code=E8QuWdVZfIuDrhu8vjuI8JbV6XxYb0r9rz-cCQqeOWhNXw&state=yfwJMjK4Q9C5g3srOxyzQiL5V8jBv5qPQZzJqgGG8jI%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 60 "oauth2@docker" "http://172.18.254.250:4180" 395ms
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 63 "code@docker" "-" 1ms
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=hoSNaJyrC8K5joYs-EVjvPR72Djj5k7gfzc47jujG_s&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=lYE8d_O2WWedgIiLY2EgrHjxWVyX_eU_z7I7U3yxxqY%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 64 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 56ms
+2024-11-08T07:32:40+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:40 +0000] "GET /ui/login/login?authRequestID=292848923767209987 HTTP/2.0" 302 100 "-" "-" 65 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 198ms
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "GET /oauth/v2/authorize/callback?id=292848923767209987 HTTP/2.0" 302 212 "-" "-" 66 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 127ms
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 68 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 138ms
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 69 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 27ms
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "GET /oauth2/callback?code=GRodaE-EXK3ip5FeQBQ7U7sh7_h9WoV3YJ4udfxzRWtKQw&state=lYE8d_O2WWedgIiLY2EgrHjxWVyX_eU_z7I7U3yxxqY%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 67 "oauth2@docker" "http://172.18.254.250:4180" 339ms
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 70 "code@docker" "-" 2ms
+2024-11-08T07:32:41+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:41 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=o1R8NTXDXaBhwQgrEmJ77mG4l52-nM-1Tlb4qtFpvzQ&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=sFhQUC4IwDEuzOZ2fl5Ic3SYA6kAZc-SC6oKswabLds%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 71 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 49ms
+2024-11-08T07:32:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:43 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=o1R8NTXDXaBhwQgrEmJ77mG4l52-nM-1Tlb4qtFpvzQ&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=sFhQUC4IwDEuzOZ2fl5Ic3SYA6kAZc-SC6oKswabLds%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 72 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 61ms
+2024-11-08T07:32:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:43 +0000] "GET /ui/login/login?authRequestID=292848927659524099 HTTP/2.0" 302 100 "-" "-" 73 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 204ms
+2024-11-08T07:32:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:43 +0000] "GET /oauth/v2/authorize/callback?id=292848927659524099 HTTP/2.0" 302 212 "-" "-" 74 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 134ms
+2024-11-08T07:32:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:43 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 76 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 122ms
+2024-11-08T07:32:44+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:44 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 77 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 28ms
+83.79.21.142 - - [08/Nov/2024:06:32:43 +0000] "GET /oauth2/callback?code=neJzgTFLVXN3bmlVIxXwZOUOEpmEqHV58dCvMZkZgin1pQ&state=sFhQUC4IwDEuzOZ2fl5Ic3SYA6kAZc-SC6oKswabLds%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 75 "oauth2@docker" "http://172.18.254.250:4180" 404ms
+2024-11-08T07:32:44+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+83.79.21.142 - - [08/Nov/2024:06:32:44 +0000] "GET / HTTP/2.0" 302 448 "-" "-" 78 "code@docker" "-" 2ms
+2024-11-08T07:32:44+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:44 +0000] "GET /oauth/v2/authorize?approval_prompt=force&client_id=292156308499529732%40myowndomain&code_challenge=msr1ti3ztXTH7FRRcuOB6zTpxJlk9OyfzZDfKbmZjz4&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fauth.myowndomain.com%2Foauth2%2Fcallback&response_type=code&scope=openid+email+profile&state=WAVIZdoHE7VnRHv87iZH7uHsvg0aNQyQJdI_N1kBmQc%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 71 "-" "-" 79 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 54ms
+2024-11-08T07:32:44+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:44 +0000] "GET /ui/login/login?authRequestID=292848930159329283 HTTP/2.0" 302 100 "-" "-" 80 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 195ms
+2024-11-08T07:32:45+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:45 +0000] "GET /oauth/v2/authorize/callback?id=292848930159329283 HTTP/2.0" 302 212 "-" "-" 81 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 143ms
+2024-11-08T07:32:45+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-08T07:32:45+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:45 +0000] "POST /oauth/v2/token HTTP/2.0" 200 1022 "-" "-" 83 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 155ms
+2024-11-08T07:32:45+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+83.79.21.142 - - [08/Nov/2024:06:32:45 +0000] "GET /oidc/v1/userinfo HTTP/2.0" 200 246 "-" "-" 84 "zitadel-secure@docker" "h2c://172.18.0.3:8080" 25ms
+83.79.21.142 - - [08/Nov/2024:06:32:45 +0000] "GET /oauth2/callback?code=S7pm5S-HON4Pu8hAHvznk4pvm_frR9zzTX-Py6LXbl7OgQ&state=WAVIZdoHE7VnRHv87iZH7uHsvg0aNQyQJdI_N1kBmQc%3Ahttps%3A%2F%2Fcode-server.myowndomain.com%2F HTTP/2.0" 302 55 "-" "-" 82 "oauth2@docker" "http://172.18.254.250:4180" 339ms
+
+
