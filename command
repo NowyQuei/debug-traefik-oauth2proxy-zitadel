@@ -20,7 +20,7 @@ docker run
   -l net.unraid.docker.icon='https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/code-server-logo.png'
   -l 'traefik.enable'='true'
   -l 'traefik.http.routers.code.entrypoints'='https'
-  -l 'traefik.http.middlewares.code.forwardauth.address'='https://auth.myowndomain.com/oauth2/callback'
+  -l 'traefik.http.routers.code.middlewares'='oauth2@file'
   -p '8443:8443/tcp'
   -v '/mnt/user/appdata/':'/appdata':'rw'
   -v '/mnt/user/appdata/code-server':'/config':'rw' 'lscr.io/linuxserver/code-server'

@@ -1,0 +1,50 @@
+2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
+2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
+2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:43+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:44+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:46+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:46+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:55+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:55+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/tls/tlsmanager.go:228 > Serving default certificate for request: ""
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:56+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:57+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:38:58+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:38:59+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:39:00+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:39:02+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/middlewares/auth/forward.go:187 > Remote error http://oauth2-proxy:4180/oauth2/start. StatusCode: 302 middlewareName=oauth2@file middlewareType=ForwardAuth
+2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:03+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: f20e9e253b0dc7a3
+2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
+2024-11-06T07:39:04+01:00 DBG github.com/traefik/traefik/v3/pkg/server/service/loadbalancer/wrr/wrr.go:196 > Service selected by WRR: 065b04bde70ab86a
